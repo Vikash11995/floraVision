@@ -48,7 +48,7 @@ const Hero = () => {
                 {/* Header */}
                 <div className="flex items-center gap-8">
                   <img
-                    src="./src/assets/72419c36cae7ef6f9c25b97e39a231fc9059935c.png"
+                    src="assets/72419c36cae7ef6f9c25b97e39a231fc9059935c.png"
                     alt="profile"
                     className="w-16 h-16 rounded-full object-cover"
                   />

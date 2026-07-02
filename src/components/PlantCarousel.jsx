@@ -6,17 +6,17 @@ const PlantCarousel = () => {
     {
       name: "Aglaonema",
       type: "Indoor Plant",
-      img: "./src/assets/Rose Gold Feminine Calligraphy Monogram Logo(15) 3.png"
+      img: "assets/Rose Gold Feminine Calligraphy Monogram Logo(15) 3.png"
     },
     {
       name: "Monstera",
       type: "Tropical Plant",
-      img: "./src/assets/monstera-deliciosa-plant-pot-lush-green-leaves-home-decor-indoor-plant-tropical-foliage-vibrant-green-potted-plant-houseplant-greenery-plant-photography.png"
+      img: "assets/monstera-deliciosa-plant-pot-lush-green-leaves-home-decor-indoor-plant-tropical-foliage-vibrant-green-potted-plant-houseplant-greenery-plant-photography.png"
     },
     {
       name: "Snake Plant",
       type: "Low Maintenance",
-      img: "./src/assets/snake-plant-stylish-gray-pot-transparent-background.png"
+      img: "assets/snake-plant-stylish-gray-pot-transparent-background.png"
     }
   ];
 
