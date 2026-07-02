@@ -41,6 +41,7 @@ const PlantCarousel = () => {
         <img
           src={plants[currentIndex].img}
           alt={plants[currentIndex].name}
+          loading='lazy'
           className="w-78 transition-all duration-500 transform hover:scale-105 object-contain drop-shadow-[0_20px_20px_rgba(0,0,0,0.32)]"
           style={{
             filter: "drop-shadow(0 8px 24px rgba(136, 218, 255, 0.23))",
