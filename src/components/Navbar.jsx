@@ -1,11 +1,15 @@
 import React from "react";
+import bag from "../assets/0cc12c30ffef0466f2779edadcefe9250d10e34e.png"
+import logo from "../assets/5e88b52117aa40baa6a96e43b5c4e57858edaa47.png"
+import search from "../assets/743cbcfb287217bc1d51247b1ef3fbccb15f8b6c.png"
+import menu from "../assets/menu-two-line (1).png"
 
 const Navbar = () => {
   return (
     <div className="flex items-center justify-between md:p-6 p-2 ">
       <div className="flex items-center gap-1.5 p-2">
         <img
-          src="assets/5e88b52117aa40baa6a96e43b5c4e57858edaa47.png"
+          src={logo}
           alt="Logo"
           className="w-[4vh] md:w-[3.5vw] "
         />
@@ -39,17 +43,17 @@ const Navbar = () => {
       </div>
       <div className="flex md:gap-8 gap-4 px-3 py-2 items-center ">
         <img
-          src="assets/743cbcfb287217bc1d51247b1ef3fbccb15f8b6c.png"
+          src={search}
           alt="search"
           className="w-[4vw] md:w-[2vw]"
         />
         <img
-          src="assets/0cc12c30ffef0466f2779edadcefe9250d10e34e.png"
+          src={bag}
           alt="bag"
           className="w-[4vw] md:w-[2vw]"
         />
 
-        <img src="assets/menu-two-line (1).png" alt="menu" className="w-[4vh] md:w-[3vw] -scale-x-100" />
+        <img src={menu} alt="menu" className="w-[4vh] md:w-[3vw] -scale-x-100" />
       </div>
     </div>
   );

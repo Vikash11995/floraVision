@@ -2,6 +2,7 @@ import React from "react";
 import { FaRegCirclePlay, FaS } from "react-icons/fa6";
 import { FaStar, FaStarHalfAlt, FaRegStar } from "react-icons/fa"; //
 import PlantCarousel from "./PlantCarousel";
+import profile from "../assets/72419c36cae7ef6f9c25b97e39a231fc9059935c.png"
 
 const Hero = () => {
   return (
@@ -47,8 +48,8 @@ const Hero = () => {
              <div className="p-6 px-8">
                 {/* Header */}
                 <div className="flex items-center gap-8">
-                  <img
-                    src="assets/72419c36cae7ef6f9c25b97e39a231fc9059935c.png"
+                  <img 
+                    src={profile}
                     alt="profile"
                     className="w-16 h-16 rounded-full object-cover"
                   />
