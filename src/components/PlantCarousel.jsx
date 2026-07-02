@@ -1,22 +1,25 @@
 import React, { useState } from 'react';
 import { FaChevronRight } from "react-icons/fa";
+import aglaonema from "../assets/Rose Gold Feminine Calligraphy Monogram Logo(15) 3.png";
+import monstera from "../assets/monstera-deliciosa-plant-pot-lush-green-leaves-home-decor-indoor-plant-tropical-foliage-vibrant-green-potted-plant-houseplant-greenery-plant-photography.png"
+import snakePlant from "../assets/snake-plant-stylish-gray-pot-transparent-background.png"
 
 const PlantCarousel = () => {
   const plants = [
     {
       name: "Aglaonema",
       type: "Indoor Plant",
-      img: "./src/assets/Rose Gold Feminine Calligraphy Monogram Logo(15) 3.png"
+      img: aglaonema
     },
     {
       name: "Monstera",
       type: "Tropical Plant",
-      img: "src/assets/monstera-deliciosa-plant-pot-lush-green-leaves-home-decor-indoor-plant-tropical-foliage-vibrant-green-potted-plant-houseplant-greenery-plant-photography.png"
+      img: monstera
     },
     {
       name: "Snake Plant",
       type: "Low Maintenance",
-      img: "src/assets/snake-plant-stylish-gray-pot-transparent-background.png"
+      img: snakePlant
     }
   ];
 
@@ -33,7 +36,6 @@ const PlantCarousel = () => {
         bg-transparent
         overflow-visible
       "
-  
     >
       <div className="absolute left-1/2 -translate-x-1/2 -top-22 z-20 pointer-events-none select-none  w-full flex justify-center ">
         <img
@@ -42,7 +44,7 @@ const PlantCarousel = () => {
           className="w-78 transition-all duration-500 transform hover:scale-105 object-contain drop-shadow-[0_20px_20px_rgba(0,0,0,0.32)]"
           style={{
             filter: "drop-shadow(0 8px 24px rgba(136, 218, 255, 0.23))",
-            pointerEvents: "none", // so it doesn't capture hover/clicks
+            pointerEvents: "none",
             userSelect: "none"
           }}
           draggable={false}
@@ -77,8 +79,8 @@ const PlantCarousel = () => {
             onClick={() => setCurrentIndex(index)}
             className={`h-1.5 rounded-full transition-all duration-300 bg-[#ffff] ${
               currentIndex === index
-                ? 'w-6  '   // white for active
-                : 'w-1.5'                      // pure white for non-active
+                ? 'w-6'
+                : 'w-1.5'
             }`}
           />
         ))}
