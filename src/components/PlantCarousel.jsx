@@ -6,7 +6,7 @@ const PlantCarousel = () => {
     {
       name: "Aglaonema",
       type: "Indoor Plant",
-      img: "src/assets/Rose Gold Feminine Calligraphy Monogram Logo(15) 3.png"
+      img: "./src/assets/Rose Gold Feminine Calligraphy Monogram Logo(15) 3.png"
     },
     {
       name: "Monstera",
