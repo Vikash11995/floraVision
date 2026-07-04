@@ -6,11 +6,12 @@ import menu from "../assets/menu-two-line (1).png"
 
 const Navbar = () => {
   return (
-    <div className="flex items-center justify-between md:p-6 p-2 ">
+    <div className="flex items-center justify-between md:p-6 p-2 scrollbar-hide ">
       <div className="flex items-center gap-1.5 p-2">
         <img
           src={logo}
           alt="Logo"
+          loading="lazy"
           className="w-[4vh] md:w-[3.5vw] "
         />
         <h1 className="font-black font-inter md:text-[2vw] text-white text-lg">
@@ -45,15 +46,17 @@ const Navbar = () => {
         <img
           src={search}
           alt="search"
+          loading="lazy"
           className="w-[4vw] md:w-[2vw]"
         />
         <img
           src={bag}
           alt="bag"
+          loading="lazy"
           className="w-[4vw] md:w-[2vw]"
         />
 
-        <img src={menu} alt="menu" className="w-[4vh] md:w-[3vw] -scale-x-100" />
+        <img src={menu} alt="menu" loading="lazy" className="w-[4vh] md:w-[3vw] -scale-x-100" />
       </div>
     </div>
   );

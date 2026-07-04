@@ -40,12 +40,12 @@ const Hero = () => {
         
           <div id="bottom" className="mt-14 flex  items-center">
             {/* review card start from here */}
-            <div className="relative w-102 h-59 rounded-[40px] p-2 flex flex-col items-center overflow-hidden
+            <div className="relative w-88 h-52 rounded-[40px] p-2 flex flex-col items-center overflow-hidden
           border border-white/50
           shadow-xl
           backdrop-blur-[2px]
           bg-transparent">
-             <div className="p-6 px-8">
+             <div className="p-2 px-4">
                 {/* Header */}
                 <div className="flex items-center gap-8">
                   <img 
@@ -70,7 +70,7 @@ const Hero = () => {
                 </div>
 
                 {/* Review */}
-                <p className="mt-4 text-gray-300 text-lg leading-relaxed max-w-135">
+                <p className="mt-4 text-gray-300 text-md leading-relaxed max-w-135">
                  I can't express how thrilled I am with my 
                  new natural plants! They bring such a 
                  fresh and vibrant energy to my home.
